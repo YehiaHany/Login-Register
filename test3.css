@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+input {
+    caret-color:#4819be;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ecf0f3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+    font-family: poppins;
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    height: 510px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.brand-logo {
+    height: 100px;
+    width: 100px;
+font-weight: 900;
+    font-size: 4.2rem;
+color: #371392;
+    text-align: center;
+    /* background: url("https://img.icons8.com/color/100/000000/twitter--v2.png"); */
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.brand-title {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #4819be;
+    letter-spacing: 1px;
+}
+
+.inputs {
+    text-align: left;
+    margin-top: 30px;
+}
+
+label,
+input,
+button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+    margin-top: 12px;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+#b {
+    color: white;
+    margin-top: 20px;
+    background: #4819be;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+}
+
+#b:hover {
+    box-shadow: none;
+}
+
+/* a {
+    position: absolute;
+    font-size: 8px;
+    bottom: 4px;
+    right: 4px;
+    text-decoration: none;
+    color: black;
+    background: yellow;
+    border-radius: 10px;
+    padding: 2px;
+} */
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#sub {
+    color: #000;
+    /* font-family: sans-serif; */
+    font-size: 16px;
+    /* font-weight: 600; */
+    margin-top: 2px;
+}
+a {
+    position: relative;
+    display: inline-block;
+    padding: 0px 4px;
+    color: #4819be;
+    font-size: 11px;
+    /* font-weight: 600; */
+    text-decoration: none;
+    text-transform: uppercase;
+    /* overflow: hidden; */
+    transition: .5s;
+    /* margin-top: 40px; */
+    letter-spacing: 4px
+}
+
+a:hover {
+    background: #371392;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #371392,
+        0 0 25px #371392,
+        0 0 50px #371392,
+        0 0 100px #371392;
+}
